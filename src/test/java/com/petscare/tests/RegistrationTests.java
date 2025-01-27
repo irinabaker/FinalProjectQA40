@@ -18,10 +18,9 @@ public class RegistrationTests extends TestBase{
     @Test
     public void newUserRegistrationPositiveTest(){
         new RegistrationPage(driver)
-                .enterUserData("Alex", "Pereira", "pereira777@gmail.com", "Pereira123!")
+                .enterUserData("Alex", "Pereira", "pereira9@gmail.com", "Pereira123!")
                 .checkBoxes()
-                ;
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .clickOnCreateAccountButton();
         new LoginPage(driver).verifySuccessRegistration("Welcome");
     }
 
@@ -29,8 +28,8 @@ public class RegistrationTests extends TestBase{
     public void newUserRegistrationNegativeTest(){
         new RegistrationPage(driver)
                 .enterUserData("Alex", "Pereira", "pereira@gmail.com", "Pereira123!")
-                .checkBoxes();
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .checkBoxes()
+                .clickOnCreateAccountButton();
         new RegistrationPage(driver).verifyMessageOfExistedUser("An error occurred during registration. You may have entered an existing email.");
     }
 
@@ -38,8 +37,7 @@ public class RegistrationTests extends TestBase{
     public void registrationWithInvalidPasswordNegativeTest(){
         new RegistrationPage(driver)
                 .enterUserData("Alex", "Pereira", "pereira@gmail.com", "qqqqqqqqq")
-                .checkBoxes();
-        new LoginPage(driver)
+                .checkBoxes()
                 .clickOnCreateAccountButton();
         new RegistrationPage(driver)
                 .verifyMessageOfInvalidPassword("Password must be at least 8 characters long, include one uppercase letter, one number, and one special character.");
@@ -49,8 +47,8 @@ public class RegistrationTests extends TestBase{
     public void registrationWithInvalidEmailNegativeTest(){
         new RegistrationPage(driver)
                 .enterUserData("Alex", "Pereira", "01pereiragmail.com", "Admin123!")
-                .checkBoxes();
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .checkBoxes()
+                .clickOnCreateAccountButton();
         Assert.assertTrue(new RegistrationPage(driver).verifyMessageOfInvalidEmail());
     }
 
@@ -59,8 +57,8 @@ public class RegistrationTests extends TestBase{
     @Test
     public void registrationWithoutCheckboxesNegativeTest(){
         new RegistrationPage(driver)
-                .enterUserData("Alex", "Pereira", "pereira@gmail.com", "Admin123!");
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .enterUserData("Alex", "Pereira", "pereira@gmail.com", "Admin123!")
+                .clickOnCreateAccountButton();
         Assert.assertTrue(new RegistrationPage(driver).checkBoxValidationTest());
     }
 
@@ -68,8 +66,8 @@ public class RegistrationTests extends TestBase{
     public void registrationWithoutFirstNameNegativeTest(){
         new RegistrationPage(driver)
                 .enterUserData("", "Pereira", "pereira@gmail.com", "Admin123!")
-                .checkBoxes();
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .checkBoxes()
+                .clickOnCreateAccountButton();
         Assert.assertTrue(new RegistrationPage(driver).isFirstNameErrorDisplayed());
     }
 
@@ -77,8 +75,8 @@ public class RegistrationTests extends TestBase{
     public void registrationWithoutLastNameNegativeTest(){
         new RegistrationPage(driver)
                 .enterUserData("Alex", "", "pereira@gmail.com", "Admin123!")
-                .checkBoxes();
-        new LoginPage(driver).clickOnCreateAccountButton();
+                .checkBoxes()
+                .clickOnCreateAccountButton();
         Assert.assertTrue(new RegistrationPage(driver).isLastNameErrorDisplayed());
     }
 

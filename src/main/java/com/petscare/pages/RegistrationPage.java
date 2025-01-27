@@ -35,9 +35,19 @@ public class RegistrationPage extends BasePage{
     @FindBy(xpath = "//input[@id='policy']")
     WebElement policy;
 
+//    public RegistrationPage checkBoxes() {
+//        click(consent);
+//        click(policy);
+//        return this;
+//    }
+
     public RegistrationPage checkBoxes() {
-        click(consent);
-        click(policy);
+        if (!consent.isSelected()){
+            click(consent);
+        }
+        if (!policy.isSelected()){
+            click(policy);
+        }
         return this;
     }
 
@@ -83,6 +93,18 @@ public class RegistrationPage extends BasePage{
         String validationMessage = lastName.getAttribute("validationMessage");
         String expectedMessage = "Заполните это поле.";
         return validationMessage.equals(expectedMessage);
+    }
+
+    @FindBy(xpath = "//button[contains(text(),'Create account')]")
+    WebElement createAccountButton;
+
+    public Object clickOnCreateAccountButton() {
+        click(createAccountButton);
+        // Проверка, остались ли мы на RegistrationPage после клика
+        if (driver.getCurrentUrl().contains("/register")) {
+            return this; // Остаемся на RegistrationPage
+        }
+        return new LoginPage(driver); // Переходим на LoginPage
     }
 
 
