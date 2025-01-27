@@ -18,7 +18,7 @@ public class RegistrationTests extends TestBase{
     @Test
     public void newUserRegistrationPositiveTest(){
         new RegistrationPage(driver)
-                .enterUserData("Alex", "Pereira", "pereira9@gmail.com", "Pereira123!")
+                .enterUserData("Alex", "Pereira", "pereira91@gmail.com", "Pereira123!")
                 .checkBoxes()
                 .clickOnCreateAccountButton();
         new LoginPage(driver).verifySuccessRegistration("Welcome");

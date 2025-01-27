@@ -19,14 +19,4 @@ public class LoginPage extends BasePage{
         return this;
     }
 
-//    @FindBy(xpath = "//button[contains(text(),'Create account')]")
-//    WebElement createAccountButton;
-//
-//        public LoginPage clickOnCreateAccountButton() {
-//        click(createAccountButton);
-//        return new LoginPage(driver);
-//    }
-
-
-
 }
