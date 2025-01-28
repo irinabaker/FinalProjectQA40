@@ -28,4 +28,13 @@ public class HomePage extends BasePage{
         Assert.assertTrue(homeComponent.getText().contains(text));
         return this;
     }
+
+    @FindBy(css = "[href='#/login']")
+    WebElement loginButton;
+
+    
+    public LoginPage selectLogIn() {
+        click(loginButton);
+        return new LoginPage(driver);
+    }
 }

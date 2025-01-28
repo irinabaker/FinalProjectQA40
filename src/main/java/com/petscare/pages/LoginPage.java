@@ -19,4 +19,26 @@ public class LoginPage extends BasePage{
         return this;
     }
 
+    @FindBy(xpath = "//input[@id='email']")
+    WebElement emailField;
+
+    @FindBy(xpath = "//input[@id='password']")
+    WebElement passwordField;
+
+    public LoginPage enterUserData(String email, String password) {
+        type(emailField, email);
+        type(passwordField, password);
+        return this;
+    }
+
+    @FindBy(xpath = "//button[contains(text(),'Sign in')]")
+    WebElement signInButton;
+
+    public Object clickOnSignInButton() {
+        click(signInButton);
+        if (driver.getCurrentUrl().contains("/login")) {
+            return this;
+        }
+        return new MyPersonalDataPage(driver);
+    }
 }

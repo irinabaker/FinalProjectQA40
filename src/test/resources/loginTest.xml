@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoky" verbose="1">
+    <test name="`Smoky">
+        <classes>
+            <class name="com.petscare.tests.LoginTests"/>
+        </classes>
+    </test>
+</suite>

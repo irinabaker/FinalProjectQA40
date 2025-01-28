@@ -69,7 +69,7 @@ public class RegistrationPage extends BasePage{
     public boolean verifyMessageOfInvalidEmail() {
         WebElement emailField = driver.findElement(By.xpath("//input[@id='email']"));
         String validationMessage = emailField.getAttribute("validationMessage");
-        String expectedMessage = "Адрес электронной почты должен содержать символ \"@\". В адресе \"01pereiragmail.com\" отсутствует символ \"@\".";
+        String expectedMessage = "Адрес электронной почты должен содержать символ \"@\". В адресе \"pereiragmail.com\" отсутствует символ \"@\".";
         return validationMessage.equals(expectedMessage);
     }
 
@@ -102,9 +102,9 @@ public class RegistrationPage extends BasePage{
         click(createAccountButton);
         // Проверка, остались ли мы на RegistrationPage после клика
         if (driver.getCurrentUrl().contains("/register")) {
-            return this; // Остаемся на RegistrationPage
+            return this;
         }
-        return new LoginPage(driver); // Переходим на LoginPage
+        return new LoginPage(driver);
     }
 
 
