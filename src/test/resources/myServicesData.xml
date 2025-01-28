@@ -1,0 +1,13 @@
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+
+<!--<suite name="Quick" verbose="1">-->
+<!--    <test name="Quick1">-->
+<!--        <classes>-->
+<!--            <class name="com.petscare.tests.MyServicesTests">-->
+<!--                <parameter name="title" value="Dog sitter"></parameter>-->
+<!--                <parameter name="price" value="15"></parameter>-->
+<!--                <parameter name="description" value="I'm a good dog sitter"></parameter>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->

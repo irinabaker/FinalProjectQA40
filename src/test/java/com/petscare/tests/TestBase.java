@@ -24,7 +24,7 @@ public class TestBase {
         logger.info("Start test: " + method.getName());
     }
 
-    @AfterMethod(enabled = true)
+    @AfterMethod(enabled = false)
     public void tearDown(ITestResult result){
         if (result.isSuccess()){
             logger.info("Test result: PASSED " + result.getMethod().getMethodName());
