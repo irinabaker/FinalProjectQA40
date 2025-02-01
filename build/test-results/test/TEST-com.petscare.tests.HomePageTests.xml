@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.petscare.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-01T16:11:16" hostname="Mac.fritz.box" time="0.063">
+  <properties/>
+  <testcase name="isHomeComponentPresentTest" classname="com.petscare.tests.HomePageTests" time="0.063"/>
+  <system-out><![CDATA[17:11:16.263 [Test worker] INFO  com.petscare.tests.TestBase -- Start test: isHomeComponentPresentTest
+17:11:16.314 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:16.314 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //h1[contains(text(),'Welcome to Pet Service')]
+17:11:16.317 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/
+17:11:16.317 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:16.327 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:16.337 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: h1, ID: , Class: text-[54px] font-bold text-center mb-6 mt-2 text-white leading-tight
+17:11:16.337 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+]]></system-out>
+  <system-err><![CDATA[февр. 01, 2025 5:11:14 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (131.0.6778.69) detected in PATH at /Users/monk/Tools/chromedriver might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry
+февр. 01, 2025 5:11:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+</testsuite>

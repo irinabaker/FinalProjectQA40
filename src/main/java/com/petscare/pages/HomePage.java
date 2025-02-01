@@ -24,7 +24,7 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//h1[contains(text(),'Welcome to Pet Service')]")
     WebElement homeComponent;
 
-    public HomePage verifyHomeComponentPresentTest(String text) {
+    public HomePage verifyHomeComponentPresent(String text) {
         Assert.assertTrue(homeComponent.getText().contains(text));
         return this;
     }
@@ -32,7 +32,7 @@ public class HomePage extends BasePage{
     @FindBy(css = "[href='#/login']")
     WebElement loginButton;
 
-    
+
     public LoginPage selectLogIn() {
         click(loginButton);
         return new LoginPage(driver);

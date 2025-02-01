@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.petscare.tests.MyServicesTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-01T16:11:19" hostname="Mac.fritz.box" time="0.928">
+  <properties/>
+  <testcase name="addNewService[0](pereira12345@gmail.com, Pereira123!, Dog sitter, 25, I'm a good dog sitter)" classname="com.petscare.tests.MyServicesTests" time="0.928"/>
+  <system-out><![CDATA[17:11:19.451 [Test worker] INFO  com.petscare.tests.TestBase -- Start test: addNewService
+17:11:19.452 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.452 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.cssSelector: [href='#/login']
+17:11:19.454 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/
+17:11:19.454 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.460 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.467 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: a, ID: , Class: fancy-button
+17:11:19.467 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.487 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.487 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:11:19.489 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.490 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.496 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.503 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.503 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.525 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.526 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:11:19.528 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.528 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.532 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.539 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.539 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.548 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.549 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:11:19.550 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.550 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.554 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.559 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.559 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.593 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.593 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:11:19.594 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.595 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.601 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.606 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.606 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.621 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.621 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:11:19.623 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.623 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.627 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.633 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.633 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.640 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.640 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:11:19.641 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.641 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.645 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.650 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:11:19.650 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.658 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.658 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //button[contains(text(),'Sign in')]
+17:11:19.659 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.659 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.665 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.670 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: button, ID: , Class: w-full fancy-button
+17:11:19.670 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.689 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.689 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //button[contains(text(),'My Services')]
+17:11:19.690 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:11:19.690 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.972 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:19.981 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: button, ID: , Class: w-full mb-2 profile-button bg-gray-200 text-gray-700
+17:11:19.981 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.004 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.004 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //span[contains(text(),'Add a New Service')]
+17:11:20.005 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.006 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.013 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.019 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: span, ID: , Class: mt-6 w-full green-button
+17:11:20.019 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.036 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.036 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[1]
+17:11:20.037 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.037 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.043 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.049 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.049 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.071 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.071 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[1]
+17:11:20.074 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.074 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.079 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.085 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.085 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.092 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.093 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[1]
+17:11:20.094 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.094 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.099 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.105 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.105 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.115 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.115 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[2]
+17:11:20.116 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.116 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.122 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.128 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.128 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.144 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.144 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[2]
+17:11:20.146 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.146 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.150 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.155 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.155 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.162 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.162 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: (//div[@id='root']//details/div/input)[2]
+17:11:20.163 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.163 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.167 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.174 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.174 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.183 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.183 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]//textarea[1]
+17:11:20.185 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.185 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.190 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.196 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: textarea, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.196 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.212 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.212 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]//textarea[1]
+17:11:20.214 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.214 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.217 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.223 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: textarea, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.223 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.228 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.228 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]//textarea[1]
+17:11:20.230 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.230 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.233 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.238 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: textarea, ID: , Class: w-full border rounded px-2 py-1
+17:11:20.238 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.249 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.249 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]/div[4]//select
+17:11:20.251 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.251 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.256 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.261 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: select, ID: , Class: w-full border border-gray-300 rounded px-3 py-2
+17:11:20.261 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.291 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.291 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]/div[4]//select
+17:11:20.293 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.293 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.297 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.303 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: select, ID: , Class: w-full border border-gray-300 rounded px-3 py-2
+17:11:20.303 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.304 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.304 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]/div[4]//select
+17:11:20.306 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.306 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.309 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.315 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: select, ID: , Class: w-full border border-gray-300 rounded px-3 py-2
+17:11:20.315 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.316 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.316 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]/div[4]//select
+17:11:20.318 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.318 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.322 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.327 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: select, ID: , Class: w-full border border-gray-300 rounded px-3 py-2
+17:11:20.327 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.329 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.329 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //div[@id='root']//details[1]/div[4]//select
+17:11:20.331 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.331 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.334 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.339 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: select, ID: , Class: w-full border border-gray-300 rounded px-3 py-2
+17:11:20.339 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.357 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.358 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //button[contains(text(),'Add Service')]
+17:11:20.366 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.366 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.371 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.377 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: button, ID: , Class: w-full green-button
+17:11:20.377 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.397 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.397 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //h3[contains(text(),'Dog sitter')]
+17:11:20.398 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/user
+17:11:20.398 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.404 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:11:20.410 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: h3, ID: , Class: font-semibold text-sky-500
+17:11:20.410 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+]]></system-out>
+  <system-err><![CDATA[февр. 01, 2025 5:11:18 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (131.0.6778.69) detected in PATH at /Users/monk/Tools/chromedriver might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry
+февр. 01, 2025 5:11:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+</testsuite>
