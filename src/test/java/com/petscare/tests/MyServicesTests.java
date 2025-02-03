@@ -2,9 +2,7 @@ package com.petscare.tests;
 
 import com.petscare.pages.HomePage;
 import com.petscare.pages.LoginPage;
-import com.petscare.pages.MyPersonalDataPage;
 import com.petscare.pages.MyServicesPage;
-import com.petscare.pages.utils.DataProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;

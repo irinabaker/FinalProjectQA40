@@ -41,4 +41,12 @@ public class LoginPage extends BasePage{
         }
         return new MyPersonalDataPage(driver);
     }
+
+    @FindBy(xpath = "//div[contains(text(),'Произошла ошибка. Попробуйте позже.')]")
+    WebElement errorMessage;
+
+    public LoginPage verifyErroMessage(String message) {
+        Assert.assertTrue(errorMessage.getText().contains(message));
+        return this;
+    }
 }

@@ -3,7 +3,7 @@ package com.petscare.tests;
 import com.petscare.pages.HomePage;
 import com.petscare.pages.LoginPage;
 import com.petscare.pages.RegistrationPage;
-import com.petscare.pages.utils.DataProviders;
+import com.petscare.utils.DataProviders;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

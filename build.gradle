@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-java:4.26.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.27.0'
     implementation 'org.testng:testng:7.10.2'
     implementation 'ch.qos.logback:logback-classic:1.5.16'
     implementation 'io.qameta.allure:allure-testng:2.29.1'

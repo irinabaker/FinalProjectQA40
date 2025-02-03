@@ -1,6 +1,6 @@
 package com.petscare.pages;
 
-import com.petscare.pages.utils.MyListener;
+import com.petscare.utils.MyListener;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.petscare.tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-01T16:24:19" hostname="Mac.fritz.box" time="0.569">
+  <properties/>
+  <testcase name="userLoginPositiveTest[0](pereira12345@gmail.com, Pereira123!)" classname="com.petscare.tests.LoginTests" time="0.569"/>
+  <system-out><![CDATA[17:24:18.977 [Test worker] INFO  com.petscare.tests.TestBase -- Start test: userLoginPositiveTest
+17:24:18.997 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:18.997 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.cssSelector: [href='#/login']
+17:24:19.000 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/
+17:24:19.000 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.009 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.020 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: a, ID: , Class: fancy-button
+17:24:19.020 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.062 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.062 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:24:19.064 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.064 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.073 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.081 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.081 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.105 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.105 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:24:19.107 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.107 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.115 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.122 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.123 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.132 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.132 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='email']
+17:24:19.134 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.134 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.140 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.148 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: email, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.148 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.184 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.184 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:24:19.187 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.187 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.194 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.202 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.202 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.219 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.219 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:24:19.221 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.221 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.227 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.233 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.233 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.241 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.241 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //input[@id='password']
+17:24:19.243 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.243 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.248 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.255 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: input, ID: password, Class: w-full p-2 border border-gray-300 rounded
+17:24:19.255 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.265 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.266 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //button[contains(text(),'Sign in')]
+17:24:19.267 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.267 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.274 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.281 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: button, ID: , Class: w-full fancy-button
+17:24:19.281 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.301 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.301 [Test worker] INFO  com.petscare.pages.utils.MyListener -- The locator will find: By.xpath: //h3[contains(text(),'My Personal Data')]
+17:24:19.302 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Current URL: https://pets-care-u2srs.ondigitalocean.app/#/login
+17:24:19.303 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.596 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.605 [Test worker] INFO  com.petscare.pages.utils.MyListener -- Found element with tag: h3, ID: , Class: text-2xl font-bold mb-4
+17:24:19.605 [Test worker] INFO  com.petscare.pages.utils.MyListener -- *************************************************
+17:24:19.617 [Test worker] INFO  com.petscare.tests.TestBase -- Test result: PASSED userLoginPositiveTest
+17:24:19.617 [Test worker] INFO  com.petscare.tests.TestBase -- ***************************************************************
+]]></system-out>
+  <system-err><![CDATA[февр. 01, 2025 5:24:17 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (131.0.6778.69) detected in PATH at /Users/monk/Tools/chromedriver might not be compatible with the detected chrome version (132.0.6834.160); currently, chromedriver 132.0.6834.159 is recommended for chrome 132.*, so it is advised to delete the driver in PATH and retry
+февр. 01, 2025 5:24:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 132, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 132
+]]></system-err>
+</testsuite>
