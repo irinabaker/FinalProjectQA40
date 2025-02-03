@@ -30,6 +30,8 @@ task qa1(type: Test){
             suites 'src/test/resources/loginTest.xml'
         } else if (suite2){
             suites 'src/test/resources/registrationTest.xml'
+        }else if (suite3){
+            suites 'src/test/resources/negative.xml'
         }
 
     }

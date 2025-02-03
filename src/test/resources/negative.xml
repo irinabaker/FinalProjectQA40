@@ -3,12 +3,12 @@
 <suite name="Negative" verbose="1">
     <test name="Negative">
         <classes>
-            <class name="com.petscare.tests.LoginTests">
-                <methods>
-                    <include name=".*Negative.*"></include>
-                    <exclude name=".*Positive.*"></exclude>
-                </methods>
-            </class>
+<!--            <class name="com.petscare.tests.LoginTests">-->
+<!--                <methods>-->
+<!--                    <include name=".*Negative.*"></include>-->
+<!--                    <exclude name=".*Positive.*"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="com.petscare.tests.RegistrationTests">
                 <methods>
                     <include name=".*Negative.*"></include>

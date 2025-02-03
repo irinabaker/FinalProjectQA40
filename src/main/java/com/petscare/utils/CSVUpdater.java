@@ -12,8 +12,8 @@ public class CSVUpdater {
 
     public static void updateCSVFileAndGetEmail() {
 
-        String tempFile = "src/test/resources/user.csv";
-        String filePath = "src/test/resources/user.csv";
+        String tempFile = "src/test/resources/userRegistration.csv";
+        String filePath = "src/test/resources/userRegistration.csv";
         String usedEmailsFile = "src/test/resources/usedEmails.csv";
 
         int currentIndex = getCurrentIndex(); // Получаем текущий индекс
