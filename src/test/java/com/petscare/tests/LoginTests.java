@@ -3,7 +3,6 @@ package com.petscare.tests;
 import com.petscare.pages.HomePage;
 import com.petscare.pages.LoginPage;
 import com.petscare.pages.MyPersonalDataPage;
-import com.petscare.utils.CSVUpdater;
 import com.petscare.utils.DataProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

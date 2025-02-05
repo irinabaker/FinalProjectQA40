@@ -90,7 +90,7 @@ public class RegistrationTests extends TestBase{
 //        new RegistrationPage(driver).verifyMessageOfExistedUser("An error occurred during registration. You may have entered an existing email.");
 //    }
 //
-    @Test(dataProviderClass = DataProviders.class,dataProvider = "UserRegistrationNegative")
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "UserRegistrationNegativePassword")
     public void registrationWithInvalidPasswordNegativeTest(String firstName, String lastName, String email, String password){
         new RegistrationPage(driver)
                 .enterUserData(firstName, lastName, email, password)
@@ -99,15 +99,15 @@ public class RegistrationTests extends TestBase{
         new RegistrationPage(driver)
                 .verifyMessageOfInvalidPassword("Password must be at least 8 characters long, include one uppercase letter, one number, and one special character.");
     }
-//
-//    @Test(dataProviderClass = DataProviders.class,dataProvider = "UserRegistrationNegative")
-//    public void registrationWithInvalidEmailNegativeTest(String firstName, String lastName, String email, String password){
-//        new RegistrationPage(driver)
-//                .enterUserData(firstName, lastName, email, password)
-//                .checkBoxes()
-//                .clickOnCreateAccountButton();
-//        Assert.assertTrue(new RegistrationPage(driver).verifyMessageOfInvalidEmail());
-//    }
+
+    @Test(dataProviderClass = DataProviders.class,dataProvider = "UserRegistrationNegativeEmail")
+    public void registrationWithInvalidEmailNegativeTest(String firstName, String lastName, String email, String password){
+        new RegistrationPage(driver)
+                .enterUserData(firstName, lastName, email, password)
+                .checkBoxes()
+                .clickOnCreateAccountButton();
+        Assert.assertTrue(new RegistrationPage(driver).verifyMessageOfInvalidEmail());
+    }
 
 //    @Test(dataProviderClass = DataProviders.class,dataProvider = "registrationWithoutCheckboxes")
 //    public void registrationWithoutCheckboxesNegativeTest(String firstName, String lastName, String email, String password){

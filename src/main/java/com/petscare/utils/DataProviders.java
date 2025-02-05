@@ -14,7 +14,6 @@ public class DataProviders {
 
     @DataProvider(name = "loginUserWithCsv")
     public Iterator<Object[]> loginUserWithCsv() throws IOException {
-//        CSVUpdater.updateCSVFileAndGetEmail(); // Обновляем CSV перед получением данных
 
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/user.csv")));
@@ -35,7 +34,7 @@ public class DataProviders {
     public Iterator<Object[]> addNewUserWithCsv() throws IOException {
         CSVUpdater.updateCSVFileAndGetEmail();
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/userRegistration.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/newUserRegistration.csv")));
 
         String line = reader.readLine();
 
@@ -50,10 +49,28 @@ public class DataProviders {
     }
 
     @DataProvider
-    public Iterator<Object[]> UserRegistrationNegative() throws IOException {
+    public Iterator<Object[]> UserRegistrationNegativePassword() throws IOException {
         CSVUpdater.updateCSVFileAndGetEmail();
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/userRegistration.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/registrationWithInvalidPassword.csv")));
+
+        String line = reader.readLine();
+
+        while (line != null){
+
+            list.add(line.split(","));
+
+            line = reader.readLine();
+        }
+
+        return list.iterator();
+    }
+
+    @DataProvider
+    public Iterator<Object[]> UserRegistrationNegativeEmail() throws IOException {
+        CSVUpdater.updateCSVFileAndGetEmail();
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/registrationWithInvalidEmail.csv")));
 
         String line = reader.readLine();
 

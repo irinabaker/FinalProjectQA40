@@ -69,8 +69,11 @@ public class RegistrationPage extends BasePage{
     public boolean verifyMessageOfInvalidEmail() {
         WebElement emailField = driver.findElement(By.xpath("//input[@id='email']"));
         String validationMessage = emailField.getAttribute("validationMessage");
-        String expectedMessage = "Адрес электронной почты должен содержать символ \"@\". В адресе \"pereiragmail.com\" отсутствует символ \"@\".";
-        return validationMessage.equals(expectedMessage);
+        String expectedMessage1 = "Адрес электронной почты должен содержать символ \"@\". В адресе \"pereiragmail.com\" отсутствует символ \"@\".";
+        String expectedMessage2 = "Недопустимое положение символа \".\" в адресе \".com\".";
+
+        return validationMessage.equals(expectedMessage1) || validationMessage.equals(expectedMessage2);
+
     }
 
     public boolean checkBoxValidationTest() {
