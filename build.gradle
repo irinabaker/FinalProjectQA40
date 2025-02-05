@@ -19,6 +19,9 @@ dependencies {
 
 test {
     useTestNG()
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
 }
 
 task qa1(type: Test){
